@@ -24,7 +24,7 @@ export default function Home({ posts }) {
                 <Link href={`/${data.slug}`}>
                   <h2>{ data.title }</h2>
                 </Link>
-                <p>{ data.summary }</p>
+                <p>{ data.description }</p>
               </div>
             ))
           }
