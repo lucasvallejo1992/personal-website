@@ -6,6 +6,6 @@ export const CodeBlock = ({code, language}) => (
     language={language}
     theme={atomOneDark}
     showLineNumbers
-    wrapLines
+    codeBlock
   />
 )
