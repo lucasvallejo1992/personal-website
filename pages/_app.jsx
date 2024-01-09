@@ -1,8 +1,11 @@
 import '../styles/globals.css';
+import RootLayout from '../components/RootLayout';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Component {...pageProps} />
+    <RootLayout>
+      <Component {...pageProps} />
+    </RootLayout>
   );
 }
 
